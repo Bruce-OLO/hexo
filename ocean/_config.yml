@@ -1,0 +1,78 @@
+# Menu
+menu:
+  首页: /
+  归档: /archives
+  相册: /gallery
+  类目: /categories
+  标签: /tags
+  关于: /about
+  链接: /link
+rss: /atom.xml
+
+# Miscellaneous
+favicon: favicon.ico
+brand: favicon.ico
+
+  
+
+# Ocean Video
+# Because I put videos in multiple formats on the same path, I just labeled the path here.
+ocean:
+  overlay: false   # 可选，false 则 Ocean 视频下方的笔触式遮盖不显示
+  path: images/ocean/ # 视频统一存放路径，格式 mp4/ogg/webm
+  brand: images/dalang.png  # 可选，一个小 Logo
+
+
+# Content
+excerpt_link: 阅读全文...  #主页摘要展开的中文
+
+# MIIT ICP/IP/DOMAIN
+beian:
+  enable: true
+  number: 赣ICP备2021009337号-1
+  url: https://beian.miit.gov.cn/
+
+
+# Tags
+show_count: false
+
+# Toc
+toc: true
+
+# fancybox
+fancybox: true
+
+#local search
+local_search:
+    enable: true
+ # if auto, trigger search by changing input
+ # if manual, trigger search by pressing enter key or search button
+    trigger: aito
+ # show top n results per article, show all results by setting to -1
+    top_n_per_article: 1
+
+search_text: search
+
+# 是否显示复制按钮
+show_copy_btn: true
+
+# Gitalk
+gitalk:
+  enable: false # true
+  clientID: # GitHub Application Client ID
+  clientSecret: # Client Secret
+  repo: # Repository name
+  owner: # GitHub ID
+  admin: # GitHub ID
+
+# Valine
+valine:
+  enable: false # true
+  el: 'vcomments'
+  appId:
+  appKey:
+  notify: false
+  verify: true
+  avatar: 'mp'
+  pageSize: '10'
+  placeholder: '请输入...'
