@@ -10,16 +10,16 @@ menu:
 rss: /atom.xml
 
 # Miscellaneous
-favicon: favicon.ico
-brand: favicon.ico
+favicon: favicon.ico        #导航栏的图标
+brand: images/shark.svg     #个人头像图标
 
   
 
 # Ocean Video
 # Because I put videos in multiple formats on the same path, I just labeled the path here.
 ocean:
-  overlay: false   # 可选，false 则 Ocean 视频下方的笔触式遮盖不显示
-  path: images/ocean/ # 视频统一存放路径，格式 mp4/ogg/webm
+  overlay: true            # 可选，false 则 Ocean 视频下方的笔触式遮盖不显示
+  path: images/ocean/       # 视频统一存放路径，格式 mp4/ogg/webm
   brand: images/dalang.png  # 可选，一个小 Logo
 
 
@@ -34,7 +34,7 @@ beian:
 
 
 # Tags
-show_count: false
+show_count: true
 
 # Toc
 toc: true
@@ -67,11 +67,11 @@ gitalk:
 
 # Valine
 valine:
-  enable: false # true
+  enable: true # true
   el: 'vcomments'
   appId:
   appKey:
-  notify: false
+  notify: true
   verify: true
   avatar: 'mp'
   pageSize: '10'
