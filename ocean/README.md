@@ -198,3 +198,5 @@ Use Tocbot to parse the title tags (h1~h6) in the content and insert the directo
 	```
 
 ---
+
+声明：本主题原创作者是[科学家](https://zhwangart.com/),感谢她和她的的小伙伴的付出，我特别喜欢她的这个主题，修改后放在我的github仓库中。我的个人主页[大浪君の博客](www.dalang.store) 有兴趣的可以点击查看。
